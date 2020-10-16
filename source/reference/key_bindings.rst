@@ -178,10 +178,10 @@ Context Operators
    Test for equality.
 
 ``regex_match``, ``not_regex_match``
-   Match against a regular expression (full match).
+   Match against a regular expression (full match).  Available only for ``key`` values ``preceding_text``, ``following_text``, and ``text``.
 
 ``regex_contains``, ``not_regex_contains``
-   Match against a regular expression (partial match).
+   Match against a regular expression (partial match).  Available only for ``key`` values ``preceding_text``, ``following_text``, and ``text``.
 
 
 
